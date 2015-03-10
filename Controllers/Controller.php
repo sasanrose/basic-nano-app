@@ -10,5 +10,4 @@ namespace app\Controllers;
  */
 class Controller
 {
-
 }

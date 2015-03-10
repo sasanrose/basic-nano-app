@@ -10,5 +10,4 @@ namespace app\Commands;
  */
 class Command
 {
-
 }
