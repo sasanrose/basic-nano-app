@@ -15,6 +15,6 @@ class SiteController extends \app\Controllers\Controller
      */
     public function indexAction()
     {
-        var_dump("Test");
+        nanophp\Template::factory()->render();
     }
 }
