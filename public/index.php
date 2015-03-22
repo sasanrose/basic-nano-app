@@ -4,6 +4,9 @@
  *
  */
 
+// Define APPDIR constant to use in NanoPHP libraries
+define('APPDIR', __DIR__.'/../');
+
 // Require composer autoloader
 require("../vendor/autoload.php");
 

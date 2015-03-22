@@ -2,6 +2,8 @@
 
 namespace app\Controllers;
 
+use nanophp\Libraries\Template as Template;
+
 /**
  * Class: SiteController
  *
@@ -10,11 +12,21 @@ namespace app\Controllers;
 class SiteController extends \app\Controllers\Controller
 {
     /**
+     * __construct
+     *
+     * Call parent controllers constructor
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
      * indexAction
      *
      */
     public function indexAction()
     {
-        nanophp\Template::factory()->render();
+        Template::factory()->render('site/index');
     }
 }

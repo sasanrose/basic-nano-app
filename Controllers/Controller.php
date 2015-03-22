@@ -10,4 +10,12 @@ namespace app\Controllers;
  */
 class Controller
 {
+    /**
+     * __construct
+     *
+     * Controller Constructor
+     */
+    public function __construct()
+    {
+    }
 }
