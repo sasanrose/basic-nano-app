@@ -13,7 +13,7 @@
   "license": "BSD-3-Clause",
   "require": {
     "php": ">=5.4.0",
-    "sasanrose/nanophp": "dev-rewrite"
+    "sasanrose/nanophp": "2.*"
   },
   "autoload": {
     "psr-4": {

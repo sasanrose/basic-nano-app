@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e400504fe234de89fde45ef40932390f",
+    "hash": "de76b5e0222ec6d64abbcf1530746339",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -119,16 +119,16 @@
         },
         {
             "name": "sasanrose/nanophp",
-            "version": "dev-rewrite",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sasanrose/NanoPHP.git",
-                "reference": "7d80415e1bb9bc977682cd30b8b443ed39fe1c93"
+                "reference": "e0e0aaa75fa624cdc3f023590bfbd23587ae5f4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sasanrose/NanoPHP/zipball/7d80415e1bb9bc977682cd30b8b443ed39fe1c93",
-                "reference": "7d80415e1bb9bc977682cd30b8b443ed39fe1c93",
+                "url": "https://api.github.com/repos/sasanrose/NanoPHP/zipball/e0e0aaa75fa624cdc3f023590bfbd23587ae5f4e",
+                "reference": "e0e0aaa75fa624cdc3f023590bfbd23587ae5f4e",
                 "shasum": ""
             },
             "require": {
@@ -159,15 +159,13 @@
             ],
             "description": "NanoPHP Framework",
             "homepage": "https://github.com/sasanrose/nanophp",
-            "time": "2015-03-24 22:52:34"
+            "time": "2015-04-01 11:41:50"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "sasanrose/nanophp": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
