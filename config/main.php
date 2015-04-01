@@ -3,6 +3,7 @@
 use Monolog\Logger;
 
 $config = [
+'production' => true,
 'timezone' => 'Asia/Tehran',
 'default' => ['controller' => 'site', 'action' => 'index'],
 'log' => ['level' => Logger::DEBUG, 'dir' => APPDIR.'logs']
